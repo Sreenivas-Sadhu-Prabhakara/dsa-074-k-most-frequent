@@ -12,6 +12,13 @@ Count occurrences, then exploit a bound the heap ignores: a frequency is always 
 
 **Complexity:** O(n + d log d) where d is distinct values in the emitted buckets — effectively O(n).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
